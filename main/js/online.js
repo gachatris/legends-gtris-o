@@ -268,7 +268,7 @@ const online = new class {
 	connect(callback, closeCallback) {
 		let tries = 0;
 		let urls = this.#urls;
-		urls = [`ws://${prompt("Enter domain name", "localhost")}:27200`, ...this.#urls]
+		urls = [`wss://${prompt("Enter domain name", "localhost")}:27200`, ...this.#urls]
 
 		let j = () => {
 			//console.log("trying " + [urls[tries]])
