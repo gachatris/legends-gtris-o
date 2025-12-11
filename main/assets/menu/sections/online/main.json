@@ -1,0 +1,48 @@
+{
+    "def": 0,
+    "sel": [
+    {
+        "string": "onlinemain_boardpos_1v1",
+        "desc": "onlinemain_boardpos_1v1_desc",
+        "type": "range_list_specific",
+        "property": "set_online_boardpos",
+        "list": "set_online_boardpos",
+        "onstate": "#ffff",
+        "offstate": "#fff2"
+    },
+    {
+        "string": "onlinemain_vsquick",
+        "desc": "onlinemain_vsquick_desc",
+        "type": "button",
+        "action": "online_vsquick",
+        "onstate": "#ffff",
+        "offstate": "#fff2",
+        "is_default": true,
+        "backable": false
+    },
+    {
+        "string": "menu_settings",
+        "desc": "menu_settings_desc",
+        "type": "button",
+        "action": "submenu",
+        "onstate": "#ffff",
+        "offstate": "#fff2",
+        "backable": true,
+        "submenu": "settings/list.json"
+    },
+    {
+        "string": "onlinemain_disconnect",
+        "desc": "onlinemain_disconnect_desc",
+        "type": "button",
+        "action": "online_disconnect",
+        "onstate": "#ffff",
+        "offstate": "#fff2"
+    }],
+    
+    "title": "onlinemain_title",
+    "name": "onlinemain",
+    "background": {
+        "type": "rgba",
+        "color": "#0F0F"
+    }
+}

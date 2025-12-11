@@ -1,0 +1,141 @@
+{
+	"def": 0,
+	"sel": [
+		
+		{
+			"string": "mpstart_settings_playeramount",
+			"desc": "mpstart_settings_playeramount_desc",
+			"type": "range_list_specific",
+			"property": "set_session_playeramount",
+			"list": "set_session_playeramount",
+			"onstate": "#ffff",
+			"offstate": "#fff2"
+		},
+		
+		{
+			"string": "mpstart_settings_boardpos_mp",
+			"desc": "mpstart_settings_boardpos_mp_desc",
+			"type": "range_list_specific",
+			"property": "set_session_boardpos_mp",
+			"list": "set_session_boardpos_mp",
+			"onstate": "#ffff",
+			"offstate": "#fff2"
+		},
+		
+		{
+			"string": "mpstart_versus",
+			"desc": "mpstart_versus_desc",
+			"type": "button",
+			"action": "init",
+			"init": 1,
+			"onstate": "#fff5",
+			"offstate": "#0000",
+			"selectname": "MAIN",
+			"selectnumber": 0,
+			"is_default": true,
+			"charselect_param": {
+				"is_fixed": false,
+				"is_pick_mode": true,
+				"is_ai": true,
+				
+				"playerpos": "first"
+			},
+			"mode_param": [
+				"wins|wins(vs)|wins",
+				"professional|professional(vs)|gachatris_professional"
+			]
+		},
+		{
+			"string": "mpstart_swap",
+			"desc": "mpstart_swap_desc",
+			"type": "button",
+			"action": "init",
+			"init": 2,
+			"onstate": "#fff5",
+			"offstate": "#0000",
+			"selectname": "MAIN",
+			"selectnumber": 1,
+			"is_default": false,
+			"charselect_param": {
+				"is_fixed": true,
+				"is_pick_mode": false,
+				"is_ai": true,
+				"players": 2,
+				"playerpos": "first"
+			},
+			"mode_param": [
+				"wins|wins(swap)|wins"
+			]
+		},
+		{
+			"string": "mpstart_wormhole",
+			"desc": "mpstart_wormhole_desc",
+			"type": "button",
+			"action": "init",
+			"init": 3,
+			"onstate": "#fff5",
+			"offstate": "#0000",
+			"selectname": "MAIN",
+			"selectnumber": 2,
+			"is_default": false,
+			"charselect_param": {
+				"is_pick_mode": true,
+				"is_ai": true,
+				"is_fixed": false,
+				"playerpos": "first"
+			},
+			"mode_param": [
+				"wins|wins(wmw)|wins"
+			]
+		},
+		{
+			"string": "mpstart_fever",
+			"desc": "mpstart_fever_desc",
+			"type": "button",
+			"action": "init",
+			"init": 4,
+			"onstate": "#ffff",
+			"offstate": "#fff2",
+			"selectname": "MAIN",
+			"selectnumber": 3,
+			"is_default": false,
+			"charselect_param": {
+				"is_fixed": true,
+				"is_pick_mode": false,
+				"is_ai": true,
+				"players": 2,
+				"playerpos": "first"
+			},
+			"mode_param": [
+				"wins|wins(fever)|wins"
+			]
+		},
+		{
+			"string": "mpstart_rpg",
+			"desc": "mpstart_rpg_desc",
+			"type": "button",
+			"action": "init",
+			"init": 7,
+			"onstate": "#ffff",
+			"offstate": "#fff2",
+			"is_default": false,
+			"charselect_param": {
+				"players": 2,
+				"is_pick_mode": true,
+				"is_ai": true,
+				"is_fixed": true,
+				"rpg": true,
+				"playerpos": "first"
+			},
+			"mode_param": [
+				"wins|wins(rpg)|wins"
+			]
+		}
+	],
+	"title": "mpstart_title",
+	"name": "main_2p",
+	"background": {
+		"type": "rgba",
+		"color": "#030F"
+	}
+}

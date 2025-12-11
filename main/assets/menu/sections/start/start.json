@@ -1,0 +1,38 @@
+{
+	"def": 0,
+	"sel": [{
+		"string": "start_1p",
+		"desc": "start_1p_desc",
+		"type": "button",
+		"action": "submenu",
+		"onstate": "#ffff",
+		"offstate": "#fff2",
+		"backable": true,
+		"submenu": "start/1p/list.json"
+	},
+	{
+	"string": "start_mp",
+	"desc": "start_mp_desc",
+	"type": "button",
+	"action": "submenu",
+	"onstate": "#ffff",
+	"offstate": "#fff2",
+	"backable": true,
+	"submenu": "start/2p/list.json"
+	},
+			{
+		    "string": "start_omp",
+		    "desc": "start_omp_desc",
+		    "type": "button",
+		    "action": "start_online",
+		    "onstate": "#ffff",
+		    "offstate": "#fff2"
+		}
+	],
+	"title": "start_title",
+	"name": "start",
+	"background": {
+		"type": "rgba",
+		"color": "#424F"
+	}
+}

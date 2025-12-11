@@ -1,0 +1,171 @@
+=# VERSION 0.2.1 ONLINE TEST ALPHA
+December 12, 2025 update
+-> If you find bugs in the game, report them to the developer (EricLenovo) through the official Gachatris + Linkblobs Discord Server (with the invite button shown in the Main Menu).
+
+# Major Additions and Changes
+## [Alpha] ONLINE MULTIPLAYER
+ - This Game now has the Online Multiplayer feature, enabling players to go head-to-head online.
+ - However, this feature is under testing and it only allows you to make quick matches.
+ 
+## CHANGE MADE TO GAMEPLAY CONTROL EVENTS
+ - This change may break older replays.
+ - Keypresses are no longer strings but now bit-wise numbers
+
+# Minor Additions, Changes, and Bug Fixes
+ - The delay before the ready-go timer disappears
+ - Minor Swap mode fix
+ - Other bug fixes changes 
+
+# Bugs that may still need to be fixed in the next updates:
+ - Menu UI touch swipe bug
+
+=# VERSION 0.2.0.1 ALPHA
+December 3, 2025 update
+
+- This is a quick fix / minor update from 0.2.0 Alpha with quick bug fixes.
+
+# Minor Additions, Changes, and Bug Fixes
+ - Splash screen changed
+ - Touch controls can now be hidden or shown using a setting that is added in Settings -> Miscellaneous
+ - Language fixes (hashtag: #sesrch)
+ - Wormhole Mayhem War: The garbage wait meter bar of Gachatris was shown, but now it's hidden.
+ 
+# Unmentioned updates in 0.2.0 Alpha
+ - Gachatris: The left meter bar Gachatris has (Garbage Wait Meter) now has a black background.
+ - Eclipse now has her voice lines volume-boosted
+ 
+# Bugs that may still need to be fixed in the next updates:
+ - AI locking the softdrop button causing it to tap out almost frequently at a moment.
+ - Menu UI touch swipe bug
+ 
+
+=# VERSION 0.2.0 ALPHA
+December 2, 2025 update
+-> Game title: Gachatris Legends: Neoplexus - The Legend of Blocks and Blobs 
+
+# Character Additions: 
+## Izzy The Grape
+ - As her name suggests, Izzy loves grapes. She may look like "Isaac Newton" only because her grapes fall on her head.
+## Skylight Cloud
+ - Skylight is the Illuminator of the skies using the stars and the moon. She flies up using her so-called "Moonmobile" that hovers up magically. Izzy is her "pet fish."
+## Emikama
+ - Emikama uses they/them or any pronouns although Skylight Cloud's online mother. They use astonishing teleportation moves and looks as well as hand powers.
+## Rainuff Cloud (incomplete)
+ - Rainuff is a colorful fox. She's not even Skylight Cloud's sister, however, but her "cloud cousin" just because Rainuff and Skylight have "Cloud" in their names. She aims to colorize the whole world.
+ - Rainuff does not have animations yet. Wait for the next update.
+## EricLenovo and Abbygaile (Phylum)
+ - E.L. and Abbygaile first existed in Gachae Linkblobs, a game based in Gachatris Legends: Neoplexus Blocks and Blobs. They are both the Phylum leaders and parents of their daughter Sun Gabbryielle, the child who discovered the Linkblobs. Now, they're wondering how the Blobs got here prior to that Game.
+## Sun Gabbryielle (Phylum)
+ - Alongside her above-mentioned parents, Sun Gabbryielle Abbygaile first existed in Gachae Linkblobs. She's their daughter and child who discovered the myserious Linkblobs. Now she's wondering how Blobs got here prior to that Game.
+ 
+# Major Additions and Changes
+## IMPROVED MENU
+ - You can now interact with the menu using touch and mouse.
+ - New minor visuals
+ 
+## ROLE-PLAYING MUSIC (Phylum)
+ - In Wormhole Mayhem War and normal states of Enhancement (except Transformation), music plays a role, featuring the theme song of the Phylum family.
+ - This song is only played when there is a character of the Phylum Family (EricLenovo, Abbygaile, and Sun Gabbryielle).
+ 
+## 4-PLAYER SESSIONS (alpha)
+ - You can create a session of 3 to 4 players. This will be more fun
+ - The player layout will change in this kind of session.
+ - However, it can only be initialized in SOME of the modes or not all.
+ - In the character selection screen, you see the "player with X on them" icon that excludes not you but computers.
+ 
+## Gachatris AI native
+ - Check if one or more characters playing Gachatris are controlled by this AI.
+ - It performs a good opener and T-Spin.
+ - However, it can somehow tap itself out because of a dumb T-Spin search.
+ - It's faster than everyone else. Its speed will become adjustable in the future updates.
+ 
+## New video background: Arcturlens Neoplexus
+ - The Neoplexus X Mark which comes from the previous version gets minor improvements in the background.
+ - There are two camera angles in that video: slow wobble and freeform. They're transitioned in its middle.
+ 
+# Minor Additions, Changes, and Bug Fixes
+ - Dominic Zi now has voices
+ - Post-match/post-session result animation added
+ - menu interface: glass-like blurry background enabling users to see what's happening in a session through it.
+ - Character selection: expanded up to 9×4 - 1 (35) slots
+ - Nameplate editing window switched to a Full-screen Window
+ - Background setting included (black, red, green, blue, A. Neoplexus)
+ - Pre-session Loading Screen changed
+ - Gachatris vs Linkblobs: Gachatris can offset garbage by 100% of attack from a line clear (Gachatris vs Gachatris mechanic) while also maintaining slightly weaker 2-/3-line T-Spin or Perfect Clear attacks to send to a Linkblobs player
+ - Swap: auxiliary boards now have colored borders with respect to player colors
+ - Other bug fixes and changes
+ 
+# Bugs that may still need to be fixed in the next updates:
+ - AI locking the softdrop button causing it to tap out almost frequently at a moment.
+ - Menu UI touch swipe bug
+
+
+=# VERSION 0.1.0.2 ALPHA
+May 30, 2025 update
+
+- This is a minor update from 0.1.0.1 Alpha.
+
+# Minor Additions, Changes, and Bug Fixes
+ - Fixed English language
+ - Fixed splash image: 2024 was mistaken for the actual initial development date.
+ - "Sheeshie" text removed from Linkblobs; it was supposed to be removed before updating to 0.1.0 Alpha. This text was there every time the Game detects a 7-chain or above in Linkblobs but now it's gone.
+ - Probable "TypeError" fix: a function when referencing a song that doesn't get properly loaded is not a function.
+ - Fixed pause key not working (reproduced from 0.0.1 A1q1 Alpha)
+ - Fixed replay data download: .txt extension in a file name is removed
+ - RPG Mode: margin time set to 320 seconds, adjusted garbage blocking
+ - Bug fix: pausing the game while the files are being loaded prior to a session
+ - Other bug fixes
+
+=# VERSION 0.1.0.1 ALPHA
+May 25, 2025 update
+
+- This is a quick fix / minor update from 0.1.0 Alpha with quick bug fixes.
+
+# Minor Additions, Changes, and Bug Fixes
+ - Fixed Keybinding button not working properly 
+ - Added Voice volume and Interface SFX volume in Audio and Volume section
+ - Startup-preventing SyntaxError fixed
+
+
+=# VERSION 0.1.0 ALPHA
+May 25, 2025 update
+
+# Character Additions: 
+## Eclipse
+ - This magical fairy herself who comes from up above is friends with a "neko guy" named Epicman33456. With the knowledge of how to use Linkblobs and Gachaquadrominoes, she can upgrade the powers she's using. Her speciality is magic with mind-governed abilities like telekinesis and telepathy.
+## Abcia2
+ - From stars above comes this lavender-colored guy. He discovers something that sounds like blocks like Gachaquadrominoes; he has yet to know "blobby" objects. Let's see how much magic he does with his stars.
+
+# Minor Additions, Changes, and Bug Fixes:
+ - Fixed the player name text not being updated in the character selection panel when preparing a Zen mode session
+ - Fixed several Wormhole Mayhem War bugs
+ - Back button icon added
+ - Back button becomes hidden when there are no submenus users can go back to.
+ - Fixed Fever timer still working even when the game's over and the timer sound should not be played.
+ - Smaller footer text for PC users
+ - Fixed Wormhole Mayhem War's attack hit effect size: a hit effect sprite becomes too big and the next others become too small (counter attack hit effect too large) -> they are now equally sized.
+ - Adjusted font size to precision (not in some cases)
+ - Changed Gachatris's timings (Autoshift Rate (ARR), Autoshift Delay (DAS), Line Clear Delay, Piece Entry Delay, and Pre-Line Clear Delay)
+ - Double Play: Professional Gachatris mode moved to Versus mode (now a mode parameter)
+ - Zen Mode: Parameter "T-Spin Double Only" is now added for Gachatris-only sessions, where you are not allowed to clear lines other than T-Spin Doubles but you'll win if you achieve 20 or more T-Spin Doubles.
+ - KEYBINDING: You are now able to assign one or more keys to flags using the "Many-to-One" keybinding system where multiple bound keys correspond to a flag/trigger.
+ - All Character's fever entrance images are removed, but they will come back after some updates.
+ - Adjusted particles
+ - New "dust"-like particles
+ - New song: "Starbells In Motion"
+ - Notifications now appear on the bottom left of the screen. They are "warnings" that notify you "results", "notifications", or "errors".
+ - Changed some general in-game sound effects
+ - Other bugfixes, refactoring, and improvements
+ 
+# Major Additions:
+## FULL-SCREEN WINDOW
+ - Navigate by using keyboard, mouse, or touch.
+ - The window is automatically resized to the window size of the browser or device, regardless of the aspect ratio/resolution.
+ - This feature includes Keybinding menus.
+ - In every new version update appears the changelog/patch notes window. You will see how many changes have been done for a new version. You can go to the changelog window by searching for "Changelogs (Patch Notes)" selection in the Main Menu screen of the game.
+
+## RPG Mode (Alpha):
+ - This mode is in Alpha stage, meaning that there are bugs present in the mode. If you discover bugs in this mode, report them to the developer.
+ - A player can only pick 3 UNIQUE characters as cards in their deck; they can use the same character as their opponent. All 3 characters in their deck add up HP and Mana depending on the attributes of each of them.
+ - Each character has a unique skill or so, with some remarkable features, buffs, and debuffs contained; enough mana will be used for every skill use. Mana costs vary on a card.
+ - The goal of a player is to force their opponent's HP down to 0. Every top-out or pile-out costs them a fraction of their HP.

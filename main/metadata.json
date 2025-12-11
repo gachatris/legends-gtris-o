@@ -1,0 +1,7 @@
+{
+	"version": "0.2.1 Online Test Alpha",
+	"build": "1",
+	"database": {
+		"categories": ["cache", "local_data", "replays"]
+	}
+}
