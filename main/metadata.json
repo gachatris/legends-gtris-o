@@ -1,5 +1,5 @@
 {
-	"version": "0.2.1 Revision 6q1 Online Test Alpha",
+	"version": "0.2.1 Revision 7 Online Test Alpha",
 	"build": "1",
 	"database": {
 		"categories": ["cache", "local_data", "replays"]
