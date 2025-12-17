@@ -41,7 +41,7 @@
 			//accessible.log(args)
 		}*/
 	
-	let isDevMode = window.location.toString().includes("http://192.168.") || window.location.toString().includes("http://localhost:");;
+	let isDevMode = window.location.toString().includes("http://192.168.") || window.location.toString().includes("http://localhost:") || window.location.toString().includes("http://10.");;
 	//console.log(isDevMode)
 	const BASE_DIRECTORY = "./main";
 	
