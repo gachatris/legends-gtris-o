@@ -8,6 +8,8 @@
 	"loading_init": "Loading initial file: var=0",
 	"loading_init_other": "Loading other files, please wait.",
 	"loading_note": "Note: the loading bar does not show 100% of the files to load during the initialization of this application.",
+	"loading_prematch": "Now Loading...",
+	"loading_prematch_rtc": "Initializing WebRTC...",
 
 	"combo": "var=0 Combo",
 	"b2b": "Back-to-back xvar=0",
@@ -151,7 +153,7 @@
 	"error_kb_duplicate": "Key [var=0] already exists in this flag",
 	"error_kb_duplicate_desc": "Duplicate keys cannot exist in the same flag.",
 		
-	"menu_main": "Gachatris Legends: Neoplexus Blocks and Blobs v0.2.1 Rev.11 OTA",
+	"menu_main": "Gachatris Legends: Neoplexus Blocks and Blobs v0.2.1 Rev.13 WOTA",
 	"menu_start": "Play Game",
 	"menu_start_desc": "Start a new game session.",
 	"menu_replaycenter": "Replay Center",

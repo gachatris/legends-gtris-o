@@ -1,0 +1,20 @@
+{
+	"sources": {
+		"main": {
+
+		},
+		"chain": {
+			"src": "chain/chain",
+			"name": "chain",
+			"count": 7,
+			"filetype": "ogg"
+		},
+		"swapcombo": {
+			"src": "swap/combo",
+			"name": "swapcombo",
+			"count": 7,
+			"filetype": "ogg"
+		}
+	},
+	"sounds": {}
+}
