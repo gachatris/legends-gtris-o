@@ -1,7 +1,7 @@
 {
 "start": {
  "category": "assets",
- "js": ["gtlnbnb"],
+ "js": ["gtlnbnbota"],
  "xml":"index.xml",
  "css": "style.css",
  "script_folder": "js",
