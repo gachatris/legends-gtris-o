@@ -9769,7 +9769,7 @@ class GachatrisBlock extends LegacyMode {
       this.checkLines();
     }
     // PRE-LINE CLEAR
-    if (this.delay[2] == 1) this.parent.checkWaitDeterminism();
+    //if (this.delay[2] == 1) this.parent.checkWaitDeterminism();
     
     if (this.delay[2] == 0) {
       this.clearLine();
@@ -14223,13 +14223,13 @@ class NeoplexianBlob extends LegacyMode {
       if (this.delay[2] == 22) { //TODO 23 is the default delay after a chain
         ////////console.log(this.activeVoiceLine)
       }
-      
-      if (this.delay[1] == 1) this.parent.checkWaitDeterminism();
+        
+      if (this.delay[1] == 1) this.parent.checkWaitDeterminism                  ();
       
       if (this.delay[1] == 0) {
         //alert("detect?")
         if (this.isEnable) this.checkChain(this.stack);
-        //this.drawStack(this.stack);
+        //this.drawStack(this.stack); 
         if (this.erasedBlocks.length == 0) {
           
           
@@ -14265,7 +14265,9 @@ class NeoplexianBlob extends LegacyMode {
        this.parent.emitAttack(this.delayedGarbage);
        this.delayedGarbage = 0;
       }*/
-      if (this.delay[0] == 1) this.parent.checkWaitDeterminism();
+      if (this.delay[0] == 1) {
+        //this.parent.checkWaitDeterminism();
+      }
       if (this.delay[0] == 0) {
         this.previewNextBlob();
         
@@ -20761,7 +20763,7 @@ blob.colorSet = defaultBlobColors;
     //music.stopAll();
     
     
-    sound.load("default");
+    sound.load("no_sound");
     
     this.enableWarning = menu.storage.getItem("set_session_fieldwarning", 0);
     
