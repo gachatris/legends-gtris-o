@@ -682,7 +682,7 @@
 		let directory = (`${BASE_DIRECTORY}/${_d[_d.length - 1]}`).replace(new RegExp("//", "gm"),
 			"/");
 		return new Promise(async (res, rej) => {
-			if (("fetch" in window)) {
+			/*if (("fetch" in window)) {
 				let re = respType || "text";
 				if (re === "arraybuffer") re = "arrayBuffer";
 				let h = await fetch(directory);
@@ -692,7 +692,7 @@
 				}
 				res(m);
 				return;
-			}
+			}*/
 			let xhr = new XMLHttpRequest();
 			xhr.timeout = 20000;
 			xhr.responseType = "arraybuffer";
@@ -711,6 +711,7 @@
 					////console.log(xhr.response)
 					let original = xhr.response;
 					let copy = original.slice(0);
+					//console.log(copy)
 					try {
 						let ret = respType || "text";
 						

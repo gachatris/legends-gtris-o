@@ -63,6 +63,26 @@
 		"default": 0,
 		"text": "text_text"
 	},
+		"set_global_musicbank_insane": {
+		"type": "range_list_specific",
+		"choices": [
+
+			"music_fever1||insane2",
+			"music_transformation||insane_transform",
+			"music_fever2||insane"
+		],
+		"default": 0,
+		"text": "text_text"
+	},
+		"set_global_musicbank_warning": {
+		"type": "range_list_specific",
+		"choices": [
+			"music_warning||warning",
+			"music_risky||risky"
+		],
+		"default": 0,
+		"text": "text_text"
+	},
 	"set_session_fieldwarning": {
 		"type": "switch",
 		"on": "option_on",

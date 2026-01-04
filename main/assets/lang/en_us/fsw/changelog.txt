@@ -1,7 +1,10 @@
-=# VERSION 0.2.1 Rev. 20 WebRTC ONLINE TEST ALPHA
-January 2, 2026 update
+=# VERSION 0.2.1 Rev. 21 WebRTC ONLINE TEST ALPHA
+January 4, 2026 update
 -> If you find bugs in the game, report them to the developer (EricLenovo) through the official Gachatris + Linkblobs Discord Server (with the invite button shown in the Main Menu).
 -> Online Test Alpha (OTA) Revisions (Rev.) may show little to no changelogs.
+
+# OTA: Additions
+- Adjustable music (warning, enhancement)
 
 # OTA: Changes and fixes
 - WebRTC Implementation (UDP, Multiplayer-standard)

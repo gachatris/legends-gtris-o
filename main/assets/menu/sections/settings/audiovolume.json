@@ -45,7 +45,25 @@
 			"list": "set_global_musicbank",
 			"onstate": "#ffff",
 			"offstate": "#fff2"
-		}
+		},
+		{
+			"string": "audiovolume_musicbank_insane",
+			"desc": "audiovolume_musicbank_insane_desc",
+			"type": "range_list_specific",
+			"property": "set_global_musicbank_insane",
+			"list": "set_global_musicbank_insane",
+			"onstate": "#ffff",
+			"offstate": "#fff2"
+		},
+		{
+	"string": "audiovolume_musicbank_warning",
+	"desc": "audiovolume_musicbank_warning_desc",
+	"type": "range_list_specific",
+	"property": "set_global_musicbank_warning",
+	"list": "set_global_musicbank_warning",
+	"onstate": "#ffff",
+	"offstate": "#fff2"
+}
 	],
 	"title": "audiovolume_title",
 	"name": "audiovolume",
