@@ -79,7 +79,7 @@
 	}
 
 	20% {
-	    translate: 0 0.16em;
+	    translate: 0 0.12em;
 		scale: 100%;
 		opacity: 100%;
 		
@@ -89,13 +89,13 @@
 		translate: 0 0.1em;
 	}
 
-	90% {
+	70% {
 		translate: 0 0em;
 		opacity: 100%;
 	}
 
 	100% {
-	    translate: 0 -1.2em;
+	    translate: 0 -0.8em;
 		scale: 100%;
 		opacity: 0%;
 		
@@ -1002,22 +1002,22 @@
 
 @keyframes cleartext-animation-combo-open {
 	0% {
-		letter-spacing: 0em;
+		letter-spacing: -0.1em;
 		opacity: 0%;
 	}
 	100% {
-		letter-spacing: 0.3em;
+		letter-spacing: 0.15em;
 		opacity: 100%;
 	}
 }
 
 @keyframes cleartext-animation-combo-close {
 	0% {
-		letter-spacing: 0.3em;
+		letter-spacing: 0.15em;
 		opacity: 100%;
 	}
 	100% {
-		letter-spacing: 0em;
+		letter-spacing: -0.1em;
 		opacity: 0%;
 	}
 }

@@ -1,2 +1,2 @@
-# legends-gtris
+# legends-gtris-o
 Gachatris Legends

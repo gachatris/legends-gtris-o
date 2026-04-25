@@ -1,16 +1,17 @@
 {
-	"title": "Gachatris Legends",
+	"title": "Gachatris Legends: Neoplexus Blocks and Blobs",
 
-	"alpha_note": "This Game is under Alpha stage, version 0.2.1 Rev. 22 OTA. If you have any suggestions, go contact the developer through the official Gachatris Discord Server.",
+	"alpha_note": "This Game is under Alpha stage, version 0.2.2 WebRTC OTA. If you have any suggestions, go contact the developer through the official Gachatris Discord Server.",
 
 	"splash_note": "Press any key, tap, or click anywhere to start.",
 
-	"loading_init": "Loading initial file: var=0",
+	"loading_init": "Initial file loaded: var=0",
 	"loading_init_other": "Loading other files, please wait.",
 	"loading_note": "Note: the loading bar does not show 100% of the files to load during the initialization of this application.",
 	"loading_prematch": "Now Loading...",
 	"loading_prematch_rtc": "Initializing WebRTC...",
-
+	"loading_prematch_rtcfail": "WebRTC Failed, switching to TCP session server as fallback...",
+	
 	"combo": "var=0 Combo",
 	"b2b": "Back-to-back xvar=0",
 	"tsd_singular": "1 T-Spin Double",
@@ -153,7 +154,7 @@
 	"error_kb_duplicate": "Key [var=0] already exists in this flag",
 	"error_kb_duplicate_desc": "Duplicate keys cannot exist in the same flag.",
 		
-	"menu_main": "Gachatris Legends: Neoplexus Blocks and Blobs v0.2.1 Rev. 22 WROTA",
+	"menu_main": "Gachatris Legends: Neoplexus Blocks and Blobs v0.2.2 WROTA",
 	"menu_start": "Play Game",
 	"menu_start_desc": "Start a new game session.",
 	"menu_replaycenter": "Replay Center",
@@ -380,7 +381,7 @@
 	"gameprepset_linkblob_color_desc": "Adjust the number of colors existing in a session.",
 	
 	"rpg_skilldesc_atkup": "ATK+",
-	"rpg_skilldesc_defup": "DEF+",
+	"rpg_skilldesc_defbuff": "DEF+",
 	"rpg_skilldesc_healing": "Heal",
 	"rpg_skilldesc_absorption": "Absorb",
 	"rpg_skilldesc_lifesteal": "Lifesteal",

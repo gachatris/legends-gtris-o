@@ -52,6 +52,7 @@
 	"set_global_musicbank": {
 		"type": "range_list_specific",
 		"choices": [
+		  "music_none||music_none",
 			"music_music1||music1",
 			"music_transformation||insane_transform",
 			"music_fever1||insane2",
@@ -60,27 +61,28 @@
 			"music_wormhole||wmw_eval",
 			"music_music2||music2"
 		],
-		"default": 0,
+		"default": 1,
 		"text": "text_text"
 	},
 		"set_global_musicbank_insane": {
 		"type": "range_list_specific",
 		"choices": [
-
+		  "music_none||music_none",
 			"music_fever1||insane2",
 			"music_transformation||insane_transform",
 			"music_fever2||insane"
 		],
-		"default": 0,
+		"default": 1,
 		"text": "text_text"
 	},
 		"set_global_musicbank_warning": {
 		"type": "range_list_specific",
 		"choices": [
+		  "music_none||music_none",
 			"music_warning||warning",
 			"music_risky||risky"
 		],
-		"default": 0,
+		"default": 1,
 		"text": "text_text"
 	},
 	"set_session_fieldwarning": {

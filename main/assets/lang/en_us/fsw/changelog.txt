@@ -1,12 +1,30 @@
-=# VERSION 0.2.1 Rev. 22 WebRTC ONLINE TEST ALPHA
-January 17, 2026 update
+=# VERSION 0.2.2 WebRTC ONLINE TEST ALPHA
+April 25, 2026 update
 -> If you find bugs in the game, report them to the developer (EricLenovo) through the official Gachatris + Linkblobs Discord Server (with the invite button shown in the Main Menu).
--> Online Test Alpha (OTA) Revisions (Rev.) may show little to no changelogs.
 
+# Character Addition: 
+## Mackenzie Heart
+ - An angelic demon, half angel and half demon, goes between heaven and hell. She primarily has different forms. She has different eyes where one is of heaven, the angrl, and the other is from hell, the demon. Just between angels and demons are colorful magical objects unknown even to her and to both parties within her, and turns out they're all owned by E.L.. When E.L. was with her, he immediately showed them out and let her know what they are. He's wondering if she can try them herself because they seem pretty much interesting.
 
 # OTA: Changes and fixes
 - Deterministic Lockstep Approach implementation fix
 - Other fixes
+
+# Minor Additions, Changes, and Bug Fixes
+ - Dominic Zi's All Clear voice line fixed (used Counter-attack line -> dedicated)
+ - "No Music" option added to music settings (Normal, Enhancement, Warning)
+ - Linkblobs segment movement physics with minor changes with the kick table
+ - Existing voice lines for the "lose" event of a character now have a 10-second timeout: if a line does not finish playing in 10 seconds, the game will proceed.
+ - Other bug fixes and adjustments
+ 
+=# VERSION 0.2.1 Rev. 22 WebRTC ONLINE TEST ALPHA
+January 17, 2026 update
+-> Online Test Alpha (OTA) Revisions (Rev.) may show little to no changelogs.
+
+# OTA: Changes and fixes
+- WebRTC Implementation (UDP, Multiplayer-standard)
+- Deterministic Lockstep Approach implementation fix
+- Other fixes (Instability)
 
 
 =# VERSION 0.2.1 Rev. 21 WebRTC ONLINE TEST ALPHA
@@ -83,7 +101,7 @@ December 2, 2025 update
  - Rainuff is a colorful fox. She's not even Skylight Cloud's sister, however, but her "cloud cousin" just because Rainuff and Skylight have "Cloud" in their names. She aims to colorize the whole world.
  - Rainuff does not have animations yet. Wait for the next update.
 ## EricLenovo and Abbygaile (Phylum)
- - E.L. and Abbygaile first existed in Gachae Linkblobs, a game based in Gachatris Legends: Neoplexus Blocks and Blobs. They are both the Phylum leaders and parents of their daughter Sun Gabbryielle, the child who discovered the Linkblobs. Now, they're wondering how the Blobs got here prior to that Game.
+ - E.L. and Abbygaile first existed in Gachae Linkblobs, a game based on Gachatris Legends: Neoplexus Blocks and Blobs. They are both the Phylum leaders and parents of their daughter Sun Gabbryielle, the child who discovered the Linkblobs. Now, they're wondering how the Blobs got here prior to that Game.
 ## Sun Gabbryielle (Phylum)
  - Alongside her above-mentioned parents, Sun Gabbryielle Abbygaile first existed in Gachae Linkblobs. She's their daughter and child who discovered the myserious Linkblobs. Now she's wondering how Blobs got here prior to that Game.
  

@@ -1,12 +1,12 @@
 {
-	"hp": 740,
+	"hp": 1040,
 	"mana": 240,
 	"atk": 50,
 	"def": 90,
 	"regen": 0,
-	"lifesteal": 0.4,
+	"lifesteal": 1,
 	"lfa": 0,
-	"deflect": 0,
+	"deflect": 1,
 	"skill": {
 		"cooldown": 3600,
 		"voice": "skill1",

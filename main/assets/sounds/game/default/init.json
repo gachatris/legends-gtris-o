@@ -68,6 +68,12 @@
 			"count": 7,
 			"filetype": "ogg"
 		},
+		"chain_fev": {
+			"src": "chain_fev/chain_fev",
+			"name": "chain_fev",
+			"count": 4,
+			"filetype": "ogg"
+		},
 		"swapcombo": {
 			"src": "swap/combo",
 			"name": "swapcombo",

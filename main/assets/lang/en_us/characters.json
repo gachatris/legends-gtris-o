@@ -225,5 +225,20 @@
 				"description": "Their secondary accent colors are their favorite colors. Their base colors? They remain the same."
 			}
 		}
+	},
+	"kenzieheart": {
+	  "name": "Mackenzie Heart",
+	  "first_name": "Mackenzie",
+	  "middle_name": "",
+	  "last_name": "Heart",
+	  "gender": 2,
+	  "pronouns": "she/her",
+	  "description": "Mackenzie Heart is a half-angel, half-demon herself, with a halo and weapons that may appear like a scythe and/or a spear. In the world of Neoplexus, how can she use these blocks and blobs?",
+	  "ver": {
+	    "main": {
+	      "name": "Angelic Demon",
+	      "description": "She normally has the powers of an angel and the powers of a demon. Will you handle them like the way she does?"
+	    }
+	  }
 	}
 }

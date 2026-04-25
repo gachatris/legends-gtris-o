@@ -1,10 +1,10 @@
 {
-	"hp": 540,
+	"hp": 700,
 	"mana": 190,
-	"atk": 20,
+	"atk": 40,
 	"def": 60,
 	"regen": 0,
-	"lifesteal": 0.6,
+	"lifesteal": 2.5,
 	"lfa": 0,
 	"deflect": 0.1,
 	"skill": {

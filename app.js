@@ -41,7 +41,7 @@
 			//accessible.log(args)
 		}*/
 	
-	let isDevMode = window.location.toString().includes("http://192.168.") || window.location.toString().includes("http://localhost:") || window.location.toString().includes("http://10.");;
+	let isDevMode = (window ?.location) ? (window.location.toString().includes("http://192.168.") || window.location.toString().includes("http://localhost:") || window.location.toString().includes("http://10.")) : false;
 	//console.log(isDevMode)
 	const BASE_DIRECTORY = "./main";
 	
@@ -693,7 +693,9 @@
 				res(m);
 				return;
 			}*/
-			let xhr = new XMLHttpRequest();
+			let retries = 100;
+			let hhh = (dim) => {
+				let xhr = new XMLHttpRequest();
 			xhr.timeout = 20000;
 			xhr.responseType = "arraybuffer";
 			
@@ -744,13 +746,20 @@
 					rej(directory + ": " + "404: EricLenovo System does not find a file: no such file or directory.");
 				};
 				
-				if (event.target.status !== 0 && event.target.status === 0) {
+				if (event.target.status !== 200 && event.target.readyState === 4) {
+					retries--;
+					if (retries <= 0) {
+						console.log(directory, event.target.readyState, event.target.status, "; EricLenovo System does not find a file: either the static server is down or there's something else wrong.");
+					}
+					else hhh(dim);
 					
-					//console.log(directory, event.target.readyState, event.target.status, "0: EricLenovo System does not find a file: the static webserver has been shut down.");
+					
 				};
 			}
-			xhr.open('GET', directory, true);
+			xhr.open('GET', dim, true);
 			xhr.send();
+			}
+			hhh(directory)
 		})
 	});
 	
@@ -1048,7 +1057,7 @@
 						try {
 							let func = new Function(["__main_params__"], str);
 							////console.log(func);
-							let exec = func({__private: _private, database: databaseManager, fetch:  __fetch, initScript: (_base, _files, _on) => loadScripts(`${base}/${_base}`, _files, _on), handle: handle, appinfo: appInfo,accessible: accessible});
+							let exec = func({ __private: _private, database: databaseManager, fetch: __fetch, initScript: (_base, _files, _on) => loadScripts(`${base}/${_base}`, _files, _on), handle: handle, appinfo: appInfo, accessible: accessible });
 							// //console.log(handle)
 							
 							on(handle.__setHandle);

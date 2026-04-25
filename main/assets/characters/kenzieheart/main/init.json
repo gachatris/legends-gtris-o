@@ -1,0 +1,546 @@
+{
+  "base": "kenzieheart",
+  "version": "main",
+  
+  "sources": {
+    "image": {
+   "normal": "images/normal.png",
+   "warning": "images/warning.png",
+   "overhead": "images/overhead.png",
+   "portall": "images/portall.png",
+   "portalr": "images/portalr.png",
+   "win": "images/win.png",
+      "lose": "images/lose.png",
+   "gatewayeff": "images/gatewayeff.png"
+  },
+    "voice": {
+      
+    }
+  },
+  "init": {
+  "animation": {
+   "paths": {
+    "landing": [
+     {
+      "x": 5,
+      "y": -5
+     },
+     {
+      "x": 2,
+      "y": 0
+     },
+     {
+      "x": -1,
+      "y": 3
+     }
+    ],
+    "stance": [
+     {
+      "x": -1,
+      "y": 3
+     },
+     {
+      "x": -1,
+      "y": 1.5
+     },
+     {
+      "x": -1,
+      "y": 3
+     }
+    ],
+    "layupward": [
+     {
+      "x": 0,
+      "y": 4.3
+     },
+     {
+      "x": 0,
+      "y": 2.8
+     },
+     {
+      "x": 0,
+      "y": 4.3
+     }
+    ]
+   },
+   "sources": {
+    "portall": {
+     "width": 908,
+     "height": 1650,
+     "framewidth": 82.5,
+     "frameheight": 412.5,
+     "aspectwidth": 1,
+     "aspectheight": 5,
+     "cellsizemult": 2,
+     "src": "portall",
+     "xbound": 11,
+     "opacity": 1
+    },
+    "win": {
+     "width": 1623,
+     "height": 1500,
+     "framewidth": 541,
+     "frameheight": 500,
+     "aspectwidth": 1.082,
+     "aspectheight": 1,
+     "cellsizemult": 8.5,
+     "src": "win",
+     "xbound": 3,
+     "opacity": 1
+    },
+    "portalr": {
+     "width": 908,
+     "height": 1650,
+     "framewidth": 82.5,
+     "frameheight": 412.5,
+     "aspectwidth": 1,
+     "aspectheight": 5,
+     "cellsizemult": 2,
+     "src": "portalr",
+     "xbound": 11,
+     "opacity": 1
+    },
+    "gt": {
+     "width": 1650,
+     "height": 1650,
+     "framewidth": 150,
+     "frameheight": 412,
+     "aspectwidth": 1,
+     "aspectheight": 3,
+     "cellsizemult": 4,
+     "src": "gatewayeff",
+     "xbound": 10,
+     "opacity": 1
+    },
+    "lose": {
+     "width": 1160,
+     "height": 350,
+     "framewidth": 290,
+     "frameheight": 350,
+     "aspectwidth": 1,
+     "aspectheight": 1.2069,
+     "cellsizemult": 18,
+     "src": "lose",
+     "xbound": 4,
+     "opacity": 1
+    }
+   },
+   "triggers": {
+    "win": {
+     "3": [
+      {
+       "action": "createAnimLayer",
+       "targetid": "portalr",
+       "targetsrc": "portalr",
+       "framepos": 0,
+       "framemax": 40,
+       "framedel": 1,
+       "loop": 0,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "createAnimLayer",
+       "targetid": "fly",
+       "targetsrc": "win",
+       "framepos": 0,
+       "framemax": 4,
+       "framedel": 3,
+       "loop": 1,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "createAnimLayer",
+       "targetid": "gt",
+       "targetsrc": "gt",
+       "framepos": 0,
+       "framemax": 40,
+       "framedel": 1,
+       "loop": 0,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "createAnimLayer",
+       "targetid": "portall",
+       "targetsrc": "portall",
+       "framepos": 0,
+       "framemax": 40,
+       "framedel": 1,
+       "loop": 0,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "move",
+       "targetid": "portalr",
+       "x0": 0,
+       "y0": 0,
+       "x1": -4,
+       "y1": -2,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "move",
+       "targetid": "gt",
+       "x0": 0,
+       "y0": 0,
+       "x1": -4,
+       "y1": -2,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "move",
+       "targetid": "portall",
+       "x0": 0,
+       "y0": 0,
+       "x1": -6,
+       "y1": -2,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "move",
+       "targetid": "fly",
+       "x0": -4,
+       "y0": 0,
+       "x1": -4,
+       "y1": -2,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "crop",
+       "targetid": "fly",
+       "mode": "2",
+       "n0": 0,
+       "n1": 0,
+       "duration": 8,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "crop",
+       "targetid": "fly",
+       "mode": "0",
+       "n0": 0,
+       "n1": 0,
+       "duration": 8,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "opacity",
+       "targetid": "gt",
+       "opacity": 0.8,
+       "duration": 0
+      }
+     ],
+     "8": [
+      {
+       "action": "crop",
+       "targetid": "fly",
+       "mode": "0",
+       "n0": 541,
+       "n1": 0,
+       "duration": 5,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "crop",
+       "targetid": "fly",
+       "mode": "2",
+       "n0": 0,
+       "n1": 541,
+       "duration": 5,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "move",
+       "targetid": "fly",
+       "x0": -4,
+       "y0": -2,
+       "x1": -2,
+       "y1": -2,
+       "duration": 8,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "13": [
+      {
+       "action": "move",
+       "targetid": "fly",
+       "x0": -2,
+       "y0": -2,
+       "x1": 12,
+       "y1": -2,
+       "duration": 17,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "28": [
+      {
+       "action": "opacity",
+       "targetid": "fly",
+       "opacity": 0,
+       "duration": 3
+      }
+     ],
+     "31": [
+      {
+       "action": "createAnimLayer",
+       "targetid": "land",
+       "targetsrc": "win",
+       "framepos": 4,
+       "framemax": 7,
+       "framedel": 15,
+       "loop": 0,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "scale",
+       "targetid": "land",
+       "x0": 1,
+       "y0": 1,
+       "x1": -2.1,
+       "y1": 2,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "path",
+       "targetid": "land",
+       "path": "landing",
+       "duration": 45,
+       "timing": "bezier",
+       "bez_s1": 1,
+       "bez_s2": 1
+      },
+      {
+       "action": "opacity",
+       "targetid": "land",
+       "opacity": 0,
+       "duration": 0
+      },
+      {
+       "action": "opacity",
+       "targetid": "land",
+       "opacity": 1,
+       "duration": 5
+      }
+     ],
+     "76": [
+      {
+       "action": "configureAnimLayer",
+       "targetid": "land",
+       "framepos": 7,
+       "framemax": 7,
+       "framedel": 0,
+       "loop": 0,
+       "paused": 1,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "path",
+       "targetid": "land",
+       "path": "stance",
+       "duration": 120,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "93": [
+      {
+       "action": "configureAnimLayer",
+       "targetid": "land",
+       "framepos": 8,
+       "framemax": 9,
+       "framedel": 0,
+       "loop": 0,
+       "paused": 1,
+       "opacity": 1,
+       "resetframe": 0
+      }
+     ],
+     "98": [
+      {
+       "action": "configureAnimLayer",
+       "targetid": "land",
+       "framepos": 7,
+       "framemax": 8,
+       "framedel": 0,
+       "loop": 0,
+       "paused": 1,
+       "opacity": 1,
+       "resetframe": 0
+      }
+     ],
+     "196": [
+      {
+       "action": "time",
+       "time": 76
+      }
+     ]
+    },
+    "lose": {
+     "0": [
+      {
+       "action": "createAnimLayer",
+       "targetid": "lose",
+       "targetsrc": "lose",
+       "framepos": 0,
+       "framemax": 1,
+       "framedel": 5,
+       "loop": 0,
+       "paused": 1,
+       "opacity": 1,
+       "resetframe": 0
+      },
+      {
+       "action": "move",
+       "targetid": "lose",
+       "x0": 0,
+       "y0": -14,
+       "x1": 0,
+       "y1": 4.3,
+       "duration": 20,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "opacity",
+       "targetid": "lose",
+       "opacity": 0,
+       "duration": 0
+      },
+      {
+       "action": "opacity",
+       "targetid": "lose",
+       "opacity": 1,
+       "duration": 10
+      },
+      {
+       "action": "rotate",
+       "targetid": "lose",
+       "start": 0,
+       "end": -25,
+       "duration": 20,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "20": [
+      {
+       "action": "configureAnimLayer",
+       "targetid": "lose",
+       "framepos": 1,
+       "framemax": 4,
+       "framedel": 6,
+       "loop": 1,
+       "paused": 0,
+       "opacity": 1,
+       "resetframe": 3
+      },
+      {
+       "action": "rotate",
+       "targetid": "lose",
+       "start": 0,
+       "end": 0,
+       "duration": 0,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      },
+      {
+       "action": "path",
+       "targetid": "lose",
+       "path": "layupward",
+       "duration": 120,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "140": [
+      {
+       "action": "path",
+       "targetid": "lose",
+       "path": "layupward",
+       "duration": 120,
+       "timing": "linear",
+       "bez_s1": 0.3333333333333333,
+       "bez_s2": 0.6666666666666666
+      }
+     ],
+     "260": [
+      {
+       "action": "time",
+       "time": 140
+      }
+     ]
+    }
+   }
+  },
+    "main": {
+      "ai": "normal",
+      "chainPower": [0, 8, 17, 27, 56, 85, 93, 173, 302, 407, 637, 699, 699, 699, 699, 699, 699, 699, 699, 699, 699, 699, 699, 699],
+        "feverPower": [0, 6, 9, 13, 18, 28, 37, 46, 61, 79, 97, 127, 166, 211, 253, 296, 334, 381, 442, 528, 581, 613, 673, 699],
+      "dropset": [2, 3, 1, 3, 0, 0, 4, 0, 0, 0, 3, 0, 4, 2, 0, 0]
+    },
+    "ca_overhead": {
+      "image": "overhead"
+    },
+    
+    "image": {
+      "normal": {
+        "src": "normal"
+      },
+      "warning": {
+        "src": "warning"
+      }
+      
+      
+      
+      
+      
+    },
+    
+    "voice": {
+      
+    }
+    
+  }
+}
