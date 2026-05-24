@@ -4,8 +4,8 @@ Project: Gachatris Legends: Neoplexus Blocks and Blobs
 
 This Source Code and JSON files in the "game/assets" folder (except those
 in "game/assets/characters") are the intellectual property of EricLenovo /
-EricLenovo Programming and Development Studios. These files are provided for non-commercial, educational, and modding
-purposes only.
+EricLenovo Programming and Development Studios. These files are provided for non-commercial, educational,
+and modding purposes only.
 
 
 1. PERMISSION
@@ -27,7 +27,14 @@ that may be displayed within the Software.
 3. ASSET RIGHTS & OWNERSHIP 
  3a. Original Content: The Source Code, Game Title, JSON files as defined above,
  and original music are Licensed under the non-commercial terms above.
-  3a.1  Game Title:
+  3a.1  Game Title: "Gachatris" is a coined portmanteau of a game studio "Gacha" by Lunime and a
+  genre "Tetris®" defined as a block stacker game; Succeeding parts of the Title include "Legends: Neoplexus" which defines one of the
+  Game's variants and "Blocks and Blobs" suggesting this Game in the genre of "Tetris" is associated
+  with another genre "Puyo Puyo™", a trademark by SEGA® defined as a chain-building game. The Developer disclaims ownership of the mentioned
+  video games and genres.
+  3a.2  Source Code and JSON Files: All the source code and JSON Files are the intellectual property of the Developer of this Game Project;
+  Any modification attempt to the Source Code and/or a JSON File is permissible under the modding purpose stated above; no malicious
+  code shall be injected into the game that may compromise the security and privacy of players.
  3b. Voice Assets: Character voice assets provided by the contributors
  are Licensed for non-commercial use only within the context of the
  Software and its derivative works. Modification of these voices

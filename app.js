@@ -913,14 +913,14 @@
 							let l = JSON.parse(m);
 							
 							//let jsonCompare = {};
-							if (l.version !== json.version || isDevMode) {
+							if ((("version" in l) &&l.version !== json.version) || isDevMode) {
 								appInfo.isUpdated = true;
 								//console.log("APP UPDATE");
 								databaseManager.write("global", "metadata", jsonString);
 								databaseManager.readAll("assets", (dele) => {
 									for (let k of dele) {
 										let h = k.index;
-										//console.log(h);
+										//console.log(h, k);
 										databaseManager.delete("assets", h);
 									}
 								});
