@@ -715,7 +715,7 @@
 					let copy = original.slice(0);
 					//console.log(copy)
 					try {
-						let ret = respType || "text";
+						let ret = respType ||  "text";
 						
 						var uint8Array = new Uint8Array(original);
 						var i = uint8Array.length;
@@ -726,7 +726,7 @@
 						function rend() {
 							let type;
 							
-							if (ret == "blob") type = new Blob([uint8Array]);
+							if (ret == "blob") type = new Blob([original]);
 							else if (ret == "arraybuffer") {
 								//console.log(uint8Array.buffer, event.target.status, directory)
 								type = (uint8Array.buffer);
@@ -776,12 +776,13 @@
 		version: "0",
 		isUpdated: false,
 		isUpdateShow: false,
+		isFirefox: false,
 		agent: window.navigator.userAgent,
 		android: "AndroidIO" in window,
 		dependencies: {},
 		fontsize: _fontsize
 	};
-	
+	if (appInfo.agent.includes("Firefox")) appInfo.isFirefox = true;
 	if (appInfo.android) try {
 		window.__ANDROID_ACCESSIBLE = accessible;
 		accessible.log = (m) => {

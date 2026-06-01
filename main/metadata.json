@@ -1,5 +1,5 @@
 {
-	"version": "0.2.2.pre_1 Revision 1 WebRTC Online Test Alpha",
+	"version": "0.2.2.pre_1 Revision 2 WebRTC Online Test Alpha",
 	"build": "Plain pre_1",
 	"database": {
 		"categories": ["cache", "local_data", "replays"]

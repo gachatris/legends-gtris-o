@@ -29,6 +29,8 @@
 			"insane": "insane.ogg",
 			"allclear": "allclear.ogg",
 			"shoosh_chain": "shoosh_chain.ogg",
+			"fever_shoosh": "chain_fev/shoosh_chain.ogg",
+			"fever_chain_pitch": "chain_fev/chain_pfev.ogg",
 			"timer": "timer.ogg",
 			"ready": "ready.ogg",
 			"start": "start.ogg",
@@ -162,6 +164,14 @@
 		},
 		"shoosh_chain": {
 			"src": "shoosh_chain",
+			"loop": false
+		},
+		"fever_shoosh": {
+			"src": "fever_shoosh",
+			"loop": false
+		},
+		"fever_chain_pitch": {
+			"src": "fever_chain_pitch",
 			"loop": false
 		},
 		"hit1": {

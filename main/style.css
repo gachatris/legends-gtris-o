@@ -1497,7 +1497,7 @@ body {
 
 #HEADER-TITLE-DIV {
 	display: flex;
-	align-items: center;
+	align-items: top;
 }
 
 #HEADER-BACK {
